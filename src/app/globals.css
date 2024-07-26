@@ -87,3 +87,63 @@
 .categories-trigger[data-state="closed"] {
   background-color: #ffffff; /* Color when closed */
 }
+
+/*product style row two*/
+.product-row-card-style-one,
+.product-card-one {
+  border: 1px solid transparent;
+}
+.main-wrapper-card span.anim {
+  position: absolute;
+  background-color: rgb(var(--primary-color));
+  transform-origin: center;
+  transition: transform 0.5s ease;
+}
+
+.main-wrapper-card span.bottom,
+.main-wrapper-card span.top {
+  height: 1px;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+}
+
+.main-wrapper-card span.left,
+.main-wrapper-card span.right {
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  transform: scaleY(0);
+}
+
+.main-wrapper-card span.top {
+  top: 0;
+}
+
+.main-wrapper-card span.bottom {
+  bottom: 0;
+  /* background: #e3d8bd85; */
+}
+
+.main-wrapper-card span.left {
+  left: 0;
+}
+
+.main-wrapper-card span.right {
+  right: 0;
+}
+
+.product-row-card-style-one:hover ~ span.top,
+.product-row-card-style-one:hover ~ span.bottom,
+.product-card-one:hover ~ span.top,
+.product-card-one:hover ~ span.bottom {
+  transform: scaleX(1);
+}
+
+.product-row-card-style-one:hover ~ span.left,
+.product-row-card-style-one:hover ~ span.right,
+.product-card-one:hover ~ span.left,
+.product-card-one:hover ~ span.right {
+  transform: scaleY(1);
+}
+/*product style row two end*/

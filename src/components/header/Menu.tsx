@@ -24,7 +24,7 @@ const Menu = () => {
     "Categories"
   );
 
-  const isWide = useMedia("(min-width: 1024px)");
+  const isWide = useMedia("(min-width: 1024px)", false);
 
   return (
     <>

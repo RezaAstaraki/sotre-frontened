@@ -9,21 +9,24 @@ import Refresh from "./shaoping components/Refresh";
 
 const Header = () => {
   return (
-    <div className={`w-full bg-white h-10 border-b border-q gray-border`}>
-      <div className="container-x mx-auto h-full">
-        <div className="flex justify-between items-center h-full text-xs">
-          <div>
-            AccountOrder Currency
-            <span>Account</span> <span>Track</span> <span>Order Currency</span>
-          </div>
-          <div className=" items-center gap-4 hidden lg:flex">
-            <div className="flex gap-2">
-              <Smartphone size={15} />
-              <span>+88 01682 825 123</span>
+    <header className={`w-full bg-white`}>
+      <div className="h-10 border-b">
+        <div className="container-x mx-auto h-full">
+          <div className="flex justify-between items-center h-full text-xs">
+            <div>
+              AccountOrder Currency
+              <span>Account</span> <span>Track</span>{" "}
+              <span>Order Currency</span>
             </div>
-            <div className="flex gap-2">
-              <Mail size={15} />
-              <span>abdur.rohman2003@gmail.com</span>
+            <div className=" items-center gap-4 hidden lg:flex">
+              <div className="flex gap-2">
+                <Smartphone size={15} />
+                <span>+88 01682 825 123</span>
+              </div>
+              <div className="flex gap-2">
+                <Mail size={15} />
+                <span>abdur.rohman2003@gmail.com</span>
+              </div>
             </div>
           </div>
         </div>
@@ -58,7 +61,7 @@ const Header = () => {
         </div>
       </div>
       <NavBar />
-    </div>
+    </header>
   );
 };
 

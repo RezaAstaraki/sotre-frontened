@@ -13,7 +13,7 @@ import { ChevronDown } from "lucide-react";
 
 const NavBar = () => {
   return (
-    <div className=" mx-auto h-[60px] hidden lg:block">
+    <nav className=" mx-auto h-[60px] hidden lg:block">
       <div className="w-full h-full relative ">
         <div
           className="w-full h-full flex justify-center items-center "
@@ -31,7 +31,7 @@ const NavBar = () => {
                 <DropdownMenuContent
                   onCloseAutoFocus={(e) => {
                     e.preventDefault();
-                    console.log(e?.currentTarget);
+                    // console.log(e?.currentTarget);
                   }}
                   align="start"
                   side="bottom"
@@ -47,7 +47,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
