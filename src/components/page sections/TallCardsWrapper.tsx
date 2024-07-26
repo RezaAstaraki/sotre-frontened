@@ -16,9 +16,17 @@ const datas = {
 
 const TallCardsWrapper = () => {
   return (
-    <section className="w-full bg-red-400">
-      TallCardsWrapper
-      {/* <ProductCardStyleOne datas={datas} /> */}
+    <section
+      className="w-full max-w-[1216px] md:px-6 px-2 mx-auto"
+      style={{ backgroundColor: "lightblue" }}
+    >
+      <div className="">TallCardsWrapper</div>
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:gap-[30px] gap-5">
+        <ProductCardStyleOne datas={datas} />
+        <ProductCardStyleOne datas={datas} />
+        <ProductCardStyleOne datas={datas} />
+        <ProductCardStyleOne datas={datas} />
+      </div>
     </section>
   );
 };

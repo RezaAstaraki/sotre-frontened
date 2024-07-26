@@ -1,0 +1,13 @@
+1) frontapi.tavanastore.ir/swagger
+2) adminapi.tavanastore.ir/swagger
+3) sellerapi.tavanastore.ir/swagger
+4) customerapi.tavanastore.ir/swagger
+
+
+ui.tavanastore.ir
+admin.tavanastore.ir
+seller.tavanastore.ir
+
+https://frontapi.tavanastore.ir/v1/Home/GetHomeLayout
+
+https://shopo-ecom.vercel.app/
