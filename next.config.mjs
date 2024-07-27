@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["mamunuiux.com"],
+    domains: ["mamunuiux.com","file.tavanastore.ir"],
   },
 };
 
