@@ -1,4 +1,5 @@
 import ProductCardStyleOne from "@/components/cards/ProductCardStyleOne";
+import ShortCardsWrapper from "@/components/page sections/ShortCardsWrapper";
 import TallCardsWrapper from "@/components/page sections/TallCardsWrapper";
 import Image from "next/image";
 
@@ -10,6 +11,8 @@ export default function Home() {
     >
       {/* lg:p-24 mt-[60px]*/}
       <TallCardsWrapper />
+
+      <ShortCardsWrapper/>
     </main>
   );
 }
